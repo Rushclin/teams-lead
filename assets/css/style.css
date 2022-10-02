@@ -1,0 +1,32 @@
+/* Rushclin02 on devchallenges.io */
+
+:root {
+
+    /* COLORS */
+
+    --cool-white: #FAFAFA;
+    --black: #000000;
+
+    /* TYPOGRAPHY */
+
+    --ff-poppins: 'Poppins';
+    --ff-PT-serif: 'PT Serif';
+
+    --fw-500: 500;
+    --fw-700: 700;
+
+    --fs-1: 36px;
+    --fs-2: 18px;
+    --fs-3: 12px;
+}
+
+/* Importation des fonts */
+@font-face {
+    font-family: 'Poppins';
+    src: url('./../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    src: url('./../fonts/PTSerif-Regular.ttf');
+}
