@@ -30,3 +30,55 @@
     font-family: 'PT Serif';
     src: url('./../fonts/PTSerif-Regular.ttf');
 }
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--cool-white);
+}
+
+/* HEADER */
+.header {
+    margin-top: 50px;
+    width: 100%
+}
+
+.header>.container {
+    padding-inline: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title,
+.description {
+    width: 40%
+}
+
+.title {
+    font-family: var(--ff-PT-serif);
+    font-weight: var(--fw-700);
+}
+
+.description {
+    font-family: var(--ff-poppins);
+}
+
+.subtitle-teams {
+    padding-bottom: 10px;
+}
+
+/* .header>.container:nth-child(1),
+.header>.container:nth-child(2) {
+    width: 50%;
+} */
